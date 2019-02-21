@@ -5,5 +5,4 @@ package gq.genprog.libslab.adapter
  * Licensed under MIT.
  */
 @Target(AnnotationTarget.CLASS)
-@Retention(AnnotationRetention.RUNTIME)
 annotation class VersionRange(val value: GameVersion)
